@@ -4,7 +4,7 @@ date: 2023-06-17T07:00:00+02:00
 draft: false
 description: "Via Ferrata Fort l’Ecluse"
 tags: ["ViaFerrata", "Fort l’Ecluse", "France"]
-categories: ["Via Ferrata"]
+categories: ["Via Ferratas"]
 featuredImage: "/images/FortlEcluse/"
 featuredImagePreview: "/images/FortlEcluse/"
 lightgallery: true
