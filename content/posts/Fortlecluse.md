@@ -5,8 +5,8 @@ draft: false
 description: "Via Ferrata Fort l’Ecluse"
 tags: ["ViaFerrata", "Fort l’Ecluse", "France"]
 categories: ["Via Ferratas"]
-featuredImage: "/BearMouseAdventure/images/avatar.jpg"
-featuredImagePreview: "/BearMouseAdventure/images/avatar.jpg"
+featuredImage: "/BearMouseAdventure/images/FortlEcluse/5001056.jpg"
+featuredImagePreview: "/BearMouseAdventure/images/FortlEcluse/5001056.jpg"
 hiddenFromHomePage: false
 lightgallery: true
 ---
