@@ -5,7 +5,6 @@ draft: false
 description: "Review on Harness Petzl Corax"
 tags: ["Gear", "Harness", "Petzl"]
 categories: ["Gear"]
-featuredImage: "/BearMouseAdventure/images/Gear/HarnessPetzlCorax.jpeg"
 featuredImagePreview: "/BearMouseAdventure/images/Gear/HarnessPetzlCorax.jpeg"
 hiddenFromHomePage: false
 lightgallery: true
@@ -25,7 +24,7 @@ This harness fits me very well I have size 1. I like how it adjusts on the legs 
     <img src="/BearMouseAdventure/images/Gear/HarnessPetzlCorax2.jpeg" style="width: 100%;">
   </figure>
 </div>
-<p style="text-align: center; font-style: italic;">Petzl Corax Harness. Taken from: [Petzl site](https://www.petzl.com/INT/en/Sport/Harnesses/CORAX) </p>
+<p style="text-align: center; font-style: italic;">Petzl Corax Harness. Taken from: <a href="https://www.petzl.com/INT/en/Sport/Harnesses/CORAX">Petzl site</a></p>
 
 
 ---
