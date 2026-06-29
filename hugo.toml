@@ -1,0 +1,135 @@
+baseURL = "https://yourusername.github.io/"
+languageCode = "en-us"
+title = "Into The Wild"
+theme = "LoveIt"
+defaultContentLanguage = "en"
+
+[params]
+  version = "0.2.X"
+  description = "Adventures, trails, and stories from the wild."
+  keywords = ["adventure", "travel", "hiking", "outdoors", "blog"]
+  defaultTheme = "auto"
+  gitRepo = ""
+  fingerprint = ""
+  dateFormat = "January 2, 2006"
+
+  [params.app]
+    title = "Into The Wild"
+    noFavicon = false
+    themeColor = "#ffffff"
+
+  [params.header]
+    desktopMode = "fixed"
+    mobileMode = "auto"
+    [params.header.title]
+      name = "Into The Wild"
+      pre = "🌲"
+      typeit = false
+
+  [params.footer]
+    enable = true
+    custom = ""
+    hugo = true
+    copyright = true
+    author = true
+    since = 2024
+    license = ""
+
+  [params.home]
+    rss = 10
+    [params.home.profile]
+      enable = true
+      avatarURL = "/images/avatar.jpg"
+      title = "Into The Wild"
+      subtitle = "Adventures, trails & stories from the wild."
+      typeit = true
+      social = true
+      disclaimer = ""
+    [params.home.posts]
+      enable = true
+      paginate = 6
+
+  [params.social]
+    Instagram = ""
+    Twitter = ""
+    YouTube = ""
+    GitHub = "yourusername"
+    Email = ""
+
+  [params.page]
+    hiddenFromHomePage = false
+    hiddenFromSearch = false
+    twemoji = false
+    lightgallery = true
+    ruby = false
+    fraction = false
+    fontawesome = true
+    linkToMarkdown = false
+    rssFullText = false
+    [params.page.toc]
+      enable = true
+      keepStatic = false
+      auto = true
+    [params.page.share]
+      enable = true
+      Twitter = true
+      Facebook = false
+      Reddit = false
+
+  [params.search]
+    enable = true
+    type = "lunr"
+    contentLength = 4000
+    placeholder = "Search adventures..."
+    maxResultLength = 10
+    snippetLength = 30
+    highlightTag = "em"
+    absoluteURL = false
+
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    url = "/posts/"
+    weight = 1
+    [menu.main.params]
+      icon = "far fa-newspaper"
+  [[menu.main]]
+    identifier = "tags"
+    name = "Tags"
+    url = "/tags/"
+    weight = 2
+    [menu.main.params]
+      icon = "fas fa-tag"
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 3
+    [menu.main.params]
+      icon = "fas fa-user"
+
+[markup]
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = true
+    lineNos = true
+    lineNumbersInTable = true
+    noClasses = false
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      definitionList = true
+      footnote = true
+      linkify = true
+      strikethrough = true
+      table = true
+      taskList = true
+      typographer = true
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 6
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
