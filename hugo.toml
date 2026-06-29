@@ -13,6 +13,9 @@ defaultContentLanguage = "en"
   fingerprint = ""
   dateFormat = "January 2, 2006"
 
+  [params.customFilePath]
+    style = "css/_custom.scss"
+
   [params.app]
     title = "Bear and Mouse Adventures"
     noFavicon = false
