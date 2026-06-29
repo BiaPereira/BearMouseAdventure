@@ -1,6 +1,6 @@
 baseURL = "https://yourusername.github.io/"
 languageCode = "en-us"
-title = "Into The Wild"
+title = "Bear and Mouse Adventures"
 theme = "LoveIt"
 defaultContentLanguage = "en"
 
@@ -14,7 +14,7 @@ defaultContentLanguage = "en"
   dateFormat = "January 2, 2006"
 
   [params.app]
-    title = "Into The Wild"
+    title = "Bear and Mouse Adventures"
     noFavicon = false
     themeColor = "#ffffff"
 
@@ -22,7 +22,7 @@ defaultContentLanguage = "en"
     desktopMode = "fixed"
     mobileMode = "auto"
     [params.header.title]
-      name = "Into The Wild"
+      name = "Bear and Mouse Adventures"
       pre = "🌲"
       typeit = false
 
@@ -40,7 +40,7 @@ defaultContentLanguage = "en"
     [params.home.profile]
       enable = true
       avatarURL = "/images/avatar.jpg"
-      title = "Into The Wild"
+      title = "Bear and Mouse Adventures"
       subtitle = "Adventures, trails & stories from the wild."
       typeit = true
       social = true
@@ -94,18 +94,39 @@ defaultContentLanguage = "en"
     weight = 1
     [menu.main.params]
       icon = "far fa-newspaper"
+
+  [[menu.main]]
+    identifier = "hikes"
+    name = "Hikes"
+    url = "/categories/hikes/"
+    weight = 2
+  [[menu.main]]
+    identifier = "via-ferratas"
+    name = "Via Ferratas"
+    url = "/categories/via-ferratas/"
+    weight = 3
+  [[menu.main]]
+    identifier = "trips"
+    name = "Trips"
+    url = "/categories/trips/"
+    weight = 4
+  [[menu.main]]
+    identifier = "gear"
+    name = "Gear"
+    url = "/categories/gear/"
+    weight = 5
   [[menu.main]]
     identifier = "tags"
     name = "Tags"
     url = "/tags/"
-    weight = 2
+    weight = 6
     [menu.main.params]
       icon = "fas fa-tag"
   [[menu.main]]
     identifier = "about"
     name = "About"
     url = "/about/"
-    weight = 3
+    weight = 7
     [menu.main.params]
       icon = "fas fa-user"
 
