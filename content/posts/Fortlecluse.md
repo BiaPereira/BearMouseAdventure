@@ -7,6 +7,7 @@ tags: ["ViaFerrata", "Fort l’Ecluse", "France"]
 categories: ["Via Ferratas"]
 featuredImage: "/images/FortlEcluse/"
 featuredImagePreview: "/images/FortlEcluse/"
+hiddenFromHomePage: false
 lightgallery: true
 ---
 
