@@ -39,7 +39,7 @@ defaultContentLanguage = "en"
     rss = 10
     [params.home.profile]
       enable = true
-      avatarURL = "images/avatar.jpg"
+      avatarURL = "https://biapereira.github.io/BearMouseAdventure/images/avatar.jpg"
       title = "Bear and Mouse Adventures"
       subtitle = "Adventures, trails & stories from the wild."
       typeit = true
